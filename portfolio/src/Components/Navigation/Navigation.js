@@ -36,13 +36,13 @@ function Navigation() {
       <ul className="navbar-nav me-auto mb-2 mb-xl-0">
         <li className="nav-item">
           <Link to="/" className="nav-link fs-6 ">
-            <i className="fa fa-align-justify text-light"></i> HOME
+            <i className="fa fa-align-justify text-warning"></i> HOME
           </Link>
         </li>
         <li className="nav-item">
           <Link to="projects" className="nav-link fs-6 ">
             <i
-              className="fa fa-graduation-cap text-light"
+              className="fa fa-graduation-cap text-warning"
               aria-hidden="true"
             ></i>{" "}
             PROJECTS
@@ -50,7 +50,7 @@ function Navigation() {
         </li>
         <li className="nav-item">
           <Link to="about" className="nav-link fs-6 ">
-            <i className="fa fa-user text-light" aria-hidden="true"></i>{" "}
+            <i className="fa fa-user text-warning" aria-hidden="true"></i>{" "}
             ABOUT
           </Link>
         </li>
