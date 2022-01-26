@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import WebFont from "webfontloader";
 
-function Navigation() {
+function Navigation({handleToggleDarkMode}) {
 
   useEffect(() => {
     WebFont.load({
@@ -53,6 +53,15 @@ function Navigation() {
             <i className="fa fa-user text-warning" aria-hidden="true"></i>{" "}
             ABOUT
           </Link>
+        </li>
+        <li className="nav-item">
+        <div className="form-check form-switch mt-2" style={{marginLeft:'200px'}}>
+          <input onClick={()=>handleToggleDarkMode((previousDarkMode)=>!previousDarkMode)} className="form-check-input" type="checkbox" id="formSwitchCheckDefault"/>
+          <label className="form-check-label text-light" for="formSwitchCheckChecked">mode</label>
+        </div>
+        
+        
+         
         </li>
 
         
