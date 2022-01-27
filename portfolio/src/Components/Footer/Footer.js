@@ -20,7 +20,7 @@ export default function Footer() {
           <div className='row border border-light border-end-0 border-start-0 border-top-0 '>
           <FooterDetails
             title="TECHNOLOGIES"
-            items={["JavaScript", "HTML", "CSS", "REACT", "BOOTSTRAP"]}
+            items={["JavaScript", "HTML", "CSS", "REACT", "BOOTSTRAP","Java"]}
           />
             <FooterDetails
             title="DATABASES"
