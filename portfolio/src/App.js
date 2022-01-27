@@ -5,6 +5,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import { useState } from "react";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="projects" element={<Projects />}></Route>
           <Route path="about" element={<About />}></Route>
+          <Route path='*' element={<NotFound />} /> 
         </Routes>
       </BrowserRouter>
       </>

@@ -16,11 +16,11 @@ function Navigation({handleToggleDarkMode}) {
   
   return   <nav className="navbar navbar-expand-xl navbar-dark bg-dark m-0  " style={{fontFamily:'Roboto Mono'}}>
   <div className="container-fluid">
-    <a className="navbar-brand text-danger " href="#">
+    <Link to='/' className="navbar-brand text-danger "  >
     <i className="fa fa-code text-light" ></i>
        Valmir's PortFolio
      
-    </a>
+    </Link>
     <button
       className="navbar-toggler"
       type="button"
