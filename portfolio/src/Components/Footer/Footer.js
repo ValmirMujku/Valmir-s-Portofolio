@@ -3,6 +3,7 @@ import SocialMedia from './SocialMedia';
 import FooterDetails from './FooterDetails';
 import { useEffect } from 'react';
 import WebFont from "webfontloader";
+import FooterR from './FooterR';
 
 export default function Footer() {
 
@@ -32,6 +33,9 @@ export default function Footer() {
           />
           </div>
             <SocialMedia/>
+            <div className='row'> 
+              <FooterR/>
+            </div>
       </div>
 
   </div>
