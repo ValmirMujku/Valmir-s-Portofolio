@@ -25,7 +25,7 @@ export default function Footer() {
           />
             <FooterDetails
             title="DATABASES"
-            items={["MySQL", "SQL", "FIREBASE","MongoDB]}
+            items={["MySQL", "SQL", "FIREBASE","MongoDB"]}
           />
               <FooterDetails
             title="IDE's"
