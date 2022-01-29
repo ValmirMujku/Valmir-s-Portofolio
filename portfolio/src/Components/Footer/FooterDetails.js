@@ -5,7 +5,7 @@ export default function FooterDetails(props) {
   <h5 className="text-danger">{props.title}</h5>
   <ul className="list-unstyled mx-3">
     {props.items.map((it) => (
-      <li   className="nav-item">
+      <li key={it}  className="nav-item">
         <a href="#" className="text-decoration-none text-light">
           {it}
         </a>
