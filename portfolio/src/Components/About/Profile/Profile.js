@@ -42,7 +42,7 @@ export default function Profile() {
         </div>
       </div>
     </div>
-    <ContactData/>
+    <ContactData/> 
     </div>
   );
 }
