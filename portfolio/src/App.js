@@ -6,6 +6,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import { useState } from "react";
 import NotFound from "./Components/NotFound/NotFound";
+import SubmitForm from "./Components/SubmitForm/SubmitForm";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="projects" element={<Projects />}></Route>
           <Route path="about" element={<About />}></Route>
+          <Route path="about/submitform" element={<SubmitForm />}></Route>
           <Route path='*' element={<NotFound />} /> 
         </Routes>
       </BrowserRouter>

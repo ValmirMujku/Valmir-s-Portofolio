@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from 'react';
 import WebFont from "webfontloader";
 import ContactData from "./ContactData";
+import { Link } from "react-router-dom";
 
 export default function Profile() {
 
@@ -43,6 +44,9 @@ export default function Profile() {
       </div>
     </div>
     <ContactData/> 
+      <div className="text-center mb-3">
+      <Link to='submitform' className="btn btn-primary">CONTACT</Link>
+      </div>
     </div>
   );
 }
